@@ -1,0 +1,33 @@
+.buttons {
+  width: 70px;
+  height: 40px;
+  margin: 30px;
+}
+
+#container {
+  margin: auto;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: black 2px solid;
+  padding: 1%;
+}
+
+.loopButtons {
+  width: 70px;
+  height: 50px;
+  margin: 2px;
+  padding: 10px;
+}
+
+div{
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+h1{
+text-align: center;
+}
