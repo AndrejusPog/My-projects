@@ -10,3 +10,7 @@ form.addEventListener("submit", function (e) {
   ul.appendChild(li);
   form.reset();
 });
+
+ul.addEventListener("click", function (e) {
+  e.target.remove();
+});
