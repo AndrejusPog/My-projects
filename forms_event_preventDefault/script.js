@@ -12,5 +12,7 @@ form.addEventListener("submit", function (e) {
 });
 
 ul.addEventListener("click", function (e) {
-  e.target.remove();
+    // e.target.remove();
+    // the code below removes only LI element on lick
+  e.target.nodeName === 'LI' && e.target.remove();
 });
